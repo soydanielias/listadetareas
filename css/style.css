@@ -249,3 +249,7 @@ input[type=checkbox]
 {
 accent-color: #bcb7bb;
 }
+
+#loom-companion-mv3{
+    display: none;
+}
