@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section>
+    <div class="pantalla1" id="pantalla1">
+        <img class="imagen1" src="https://media.giphy.com/media/69NypG6Ka1gPXwXsKa/giphy.gif" alt="List">
+        <h1>¡Hola! Soy Unicheck, tu asistente de tareas.</h1>
+        <p>Mi misión es que lleves tu <strong>productividad de 0 a 100</strong>.</p>
+        <h3>Ingresá tu nombre para ver tu lista de tareas.</h3>
+        <input type="text" id="entrada"> <br> <br>
+        <button id="btn">Ingresar</button>
+        </div>
+
+        <div class="pantalla2" id="pantalla2">
+            <img class="imagen2" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZndhdXk3MTh3YW95NGU5aWZvbnMzMGZiM3MzanQ1dDYwZXVjdnd6byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fTmoZDoZeukFbBXuEB/giphy.gif" alt="List2">
+            <h3 id="espera" ></h3>
+            <p>Puede que parezcan muchas, pero <strong>si te enfocas en una a la vez</strong>, vas a ver como de a poco se van completando.</p>
+            <p>Necesito comprobar que sos un humane.</p>
+            <p>¿Cuánto es 5+3?</p><input id="resultadosuma" type="text">
+            <button id="btn2">Ya, dame mi lista</button>
+            <p id="error" >Estás haciendo mal la suma. Yo sé que sos capaz, volvé a intentarlo.</p>
+        </div>
+
+        <div class="pantalla3" id="pantalla3">
+            <img class="imagen3" src="images/list.png" alt="List3">
+            <h1 id="resultado"></h1>
+            <div class="tareas">
+                <input type="checkbox" id="tarea1" value="Mirar todos los videos"> <span class="tarea1text" id="tarea1text">Mirar todos los videos</span>
+                <br>
+                <input type="checkbox" id="tarea2" value="Hacer los retos"> <span class="tarea12text" id="tarea2text">Hacer los retos</span>
+                <br>
+                <input type="checkbox" id="tarea3" value="Escuchar los podcast"> <span class="tarea3text" id="tarea3text">Escuchar los podcast</span>
+                <br>
+                <input type="checkbox" id="tarea4" value="Buscar ejemplos para practicar"> <span class="tarea4text" id="tarea4text">Buscar ejemplos para practicar</span>
+                <br>
+                <input type="checkbox" id="tarea5" value="Mirar de nuevo la Masterclass"> <span class="tarea5text" id="tarea5text">Mirar de nuevo la Masterclass</span>
+                <br>
+                <input type="checkbox" id="tarea6" value="Mirar lo que la gente pregunta en Stack Overflow"> <span class="tarea6text" id="tarea6text">Mirar lo que la gente pregunta en Stack Overflow</span>
+                <br>
+                <input type="checkbox" id="tarea7" value="Organizar una juntada para la comunidad"> <span class="tarea7text" id="tarea7text">Organizar una juntada para la comunidad</span>
+                <br>
+                <input type="checkbox" id="tarea8" value="Leer libros relacionados"> <span class="tarea8text" id="tarea8text">Leer libros relacionados</span>
+                <br>
+                <input type="checkbox" id="tarea9" value="Hacer 5 ejemplos de apps"> <span class="tarea9text" id="tarea9text">Hacer 5 ejemplos de apps</span>
+                <br>
+                <input type="checkbox" id="tarea10" value="Armar un plan de acción de acá a fin de año"> <span class="tarea10text" id="tarea10text">Armar un plan de acción de acá a fin de año</span>
+                <br>
+            </div>
+            
+            <div id="mostrardiv" >   
+            <span class="material-symbols-outlined" id="closeicon">
+                close
+                </span>
+            <img class="imagen4" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWs5bmpueTZkMDlnNmpxc3F5enhhNGFkeWR2Y2ZhejB1OTlxNmM3cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/S6f3L1Mibud9u85wCy/giphy.gif" alt="List4">
+            <h1 id="nombrecongrats"></h1>
+            <h3 id="congrats"></h3>
+            </div>
+    
+    
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
